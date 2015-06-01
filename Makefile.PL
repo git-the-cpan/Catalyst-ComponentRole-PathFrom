@@ -24,11 +24,12 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "Catalyst::Component::InstancePerContext" => 0,
     "Catalyst::Test" => 0,
+    "File::Spec" => 0,
     "FindBin" => 0,
     "HTTP::Request::Common" => 0,
     "Test::Most" => "0.34"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
